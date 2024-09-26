@@ -23,6 +23,17 @@
         <li><a href="/ejercicios_tema_2/212calendario.php">Ejercicio 212</a>
         <li><a href="/ejercicios_tema_2/213ecuacion2g.php">Ejercicio 213</a>
         <li><a href="/ejercicios_tema_2/214_215.php">Ejercicios 214 y 215</a>
+        <li><a href="/ejercicios_tema_2/220pares050.php">Ejercicios 220</a>
+        <li><a href="/ejercicios_tema_2/220paresAB.php">Ejercicios 220AB</a>
+        <li><a href="/ejercicios_tema_2/221suma110.php">Ejercicio 221</a>
+        <li><a href="/ejercicios_tema_2/221sumaAB.php">Ejercicio 221ab</a>
+        <li><a href="/ejercicios_tema_2/222potencia.php">Ejercicio 222</a>
+        <li><a href="/ejercicios_tema_2/222potenciaWhile.php">Ejercicio 222 While</a>
+        <li><a href="/ejercicios_tema_2/222potenciaDoWhile.php">Ejercicio 222 DoWhile</a>
+        <li><a href="/ejercicios_tema_2/223tabladeMultiplicar.php">Ejercicio 223</a>
+        <li><a href="/ejercicios_tema_2/224formulario.html">Ejercicio 224</a>
+        <li><a href="/ejercicios_tema_2/225formulario.html">Ejercicio 225</a>
+
 
 
 

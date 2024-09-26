@@ -17,8 +17,8 @@
     </ul>
     <p>
     <?php
-        $a = 10;
-        $b = 20;
+        $a = "jose";
+        $b = "jose";
 
         $resultado = $a <=> $b; // -1 porque $a es menor que $b
         echo "Resultado de \$a <=> \$b: " . $resultado . "<br>";
@@ -54,7 +54,7 @@
     <p>La instrucción match() es similar a switch, pero más estricta en cuanto a comparación y permite devolver valores directamente.</p>
     <p>
     <?php
-        $color = "rojo";
+        $color = "rojos";
 
         $resultadoColor = match($color) {
             "rojo" => "El color es rojo",

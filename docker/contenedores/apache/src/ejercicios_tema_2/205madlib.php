@@ -9,7 +9,7 @@
 
 <body>
     <?php
-    $nombre = $_GET['nombre'] != "" ? $_GET['nombre'] : "jose";
+    $nombre = $_GET['nombre']  ? : "jose";
     $verbo = $_GET['verbo'] != "" ? $_GET['verbo'] : "bailar";
     $adj = $_GET['adj'] != "" ? $_GET['adj'] : "feo";
     $adv = $_GET['adv'] != "" ? $_GET['adv'] : "solamente";
