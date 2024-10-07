@@ -9,7 +9,7 @@
     <?php
         $cantidad=$_GET['cantidad']?:10;
         (int)$cantidad;
-        echo $cantidad;
+     
         echo "<form method='get' action='224sumarDatos.php'>";
         for ($i = 1; $i <= $cantidad; $i++) {
             echo "<label for='campo$i'>Campo $i:</label>";

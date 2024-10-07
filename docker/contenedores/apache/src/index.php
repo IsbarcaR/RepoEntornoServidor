@@ -33,6 +33,40 @@
         <li><a href="/ejercicios_tema_2/223tabladeMultiplicar.php">Ejercicio 223</a>
         <li><a href="/ejercicios_tema_2/224formulario.html">Ejercicio 224</a>
         <li><a href="/ejercicios_tema_2/225formulario.html">Ejercicio 225</a>
+        <li><a href="/ejercicios_tema_2/226formulario.html">Ejercicio 226</a>
+        <li><a href="/ejercicios_tema_2/227formulario.html">Ejercicio 227</a>
+        <li><a href="/ejercicios_tema_2/228cuadradoMultiplicar.php">Ejercicio 228</a>
+        <li><a href="/ejercicios_tema_2/230aleatorios50.php">Ejercicio 230</a>
+        <li><a href="/ejercicios_tema_2/231bola8.html">Ejercicio 231</a>
+        <li><a href="/ejercicios_tema_2/232mates.php">Ejercicio 232</a>
+        <li><a href="/ejercicios_tema_2/233sexos.php">Ejercicio 233</a>
+        <li><a href="/ejercicios_tema_2/234monedas.php">Ejercicio 234</a>
+        <li><a href="/ejercicios_tema_2/235alturas.php">Ejercicio 235</a>
+        <li><a href="/ejercicios_tema_2/236personas.php">Ejercicio 236</a>
+        <li><a href="/ejercicios_tema_2/238leerCantidad.html">Ejercicio 238</a>
+        <li><a href="/ejercicios_tema_2/239tablaDistintos.php">Ejercicio 239</a>
+        <li><a href="/ejercicios_tema_2/240arrayPar.php">Ejercicio 240</a>
+        <li><a href="/ejercicios_tema_2/241parametrosVariables.php">Ejercicio 241</a>
+        <li><a href="/ejercicios_tema_2/242matematicas.php">Ejercicio 242</a>
+        <li><a href="/ejercicios_tema_2/243arrayFunciones.php">Ejercicio 243</a>
+        <li><a href="/ejercicios_tema_2/244calculadoraEuros.php">Ejercicio 244</a>
+        <li><a href="/ejercicios_tema_2/245preparaTiquetCompra.php">Ejercicio 245a</a>
+        <li><a href="/ejercicios_tema_2/245imprimeTiquetCompra.php">Ejercicio 245b</a>
+        <li><a href="/ejercicios_tema_2/246preparaCompra.php">Ejercicio 246a</a>
+        <li><a href="/ejercicios_tema_2/246listaCompra.php">Ejercicio 246b</a>
+        <li><a href="/ejercicios_tema_2/247login.php">Ejercicio 247</a>
+        <li><a href="/ejercicios_tema_2/250fraseImpares.php">Ejercicio 250</a>
+        <li><a href="/ejercicios_tema_2/251vocales.php">Ejercicio 251</a>
+        <li><a href="/ejercicios_tema_2/252analizador.php">Ejercicio 252</a>
+        <li><a href="/ejercicios_tema_2/252analizadorWC.php">Ejercicio 252b</a>
+        <li><a href="/ejercicios_tema_2/253cani.php">Ejercicio 253</a>
+        <li><a href="/ejercicios_tema_2/254palindromo.php">Ejercicio 254</a>
+        <li><a href="/ejercicios_tema_2/255codificar.php">Ejercicio 255</a>
+        <li><a href="/ejercicios_tema_2/255b.php">Ejercicio 255b</a>
+
+
+
+
 
 
 
