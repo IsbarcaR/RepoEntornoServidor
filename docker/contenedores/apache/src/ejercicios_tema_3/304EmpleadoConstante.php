@@ -4,7 +4,7 @@ class Empleado {
   
     
     private $telefonos=[];
-    const SUELDO_TOPE =10000;
+    const SUELDO_TOPE =3333;
         // Constructor php 8 tiene las propiedades dentro
        
     public function __construct( private string $nombre,  private string $apellidos,  private int $sueldo=1000){}
