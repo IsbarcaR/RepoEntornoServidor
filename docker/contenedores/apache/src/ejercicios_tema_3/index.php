@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entorno Servidor</title>
-    <style>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Tema 3</title>
+</head>
+<style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
@@ -59,22 +60,16 @@
             }
         }
     </style>
-</head>
 <body>
-    <h1>Ejercicios PHP</h1>
+    <h1>Tema 3</h1>
     <ul>
-        <li><a href="/ejercicios_tema_2/index.php">Ejercicios tema 2</a>
-        <li><a href="/ejercicios_tema_3/index.php">Ejercicios tema 3</a>
-
-       
-
-
-
-
-
-
-
-
+    <li><a href="301Empleado.php"> Ej 301</a></li>
+    <li><a href="302EmpleadoTelefonos.php"> Ej 302</a></li>
+    <li><a href="303EmpleadoConstructor.php"> Ej 303</a></li>
+    <li><a href="303EmpleadoConstructor8.php"> Ej 303b</a></li>
+    <li><a href="304EmpleadoConstante.php"> Ej 304</a></li>
+    <li><a href="305EmpleadoSueldo.php"> Ej 305</a></li>
+    <li><a href="306EmpleadoStatic.php"> Ej 306</a></li>
 
 
 
