@@ -1,18 +1,25 @@
 <?php
-class Empleado {
-    private string $nombre;
-    private string $apellidos;
-    private float $sueldo;
-    private array $telefonos = [];
+class Persona {
+    protected string $nombre;
+    protected string $apellidos;
 
-    public function __construct(string $nombre, string $apellidos, float $sueldo) {
+    public function __construct(string $nombre, string $apellidos) {
         $this->nombre = $nombre;
         $this->apellidos = $apellidos;
-        $this->sueldo = $sueldo;
     }
 
     public function getNombreCompleto(): string {
         return $this->nombre . ' ' . $this->apellidos;
+    }
+}
+
+class Empleado extends Persona {
+    private float $sueldo;
+    private array $telefonos = [];
+
+    public function __construct(string $nombre, string $apellidos, float $sueldo = 1000) {
+        parent::__construct($nombre, $apellidos);
+        $this->sueldo = $sueldo;
     }
 
     public function debePagarImpuestos(): bool {

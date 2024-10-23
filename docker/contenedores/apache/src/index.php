@@ -65,21 +65,12 @@
     <ul>
         <li><a href="/ejercicios_tema_2/index.php">Ejercicios tema 2</a>
         <li><a href="/ejercicios_tema_3/index.php">Ejercicios tema 3</a>
+        <li><a href="examen_tema2_Ismael_Barranco/index.php">Examen</a>
+        <li><a href="/examenCorreccionChat/index.php">Examen Chat</a>
+        <li><a href="/videoclub/inicio.php">videoclub </a>
+
 
        
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     </ul>
