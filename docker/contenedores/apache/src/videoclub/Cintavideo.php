@@ -8,7 +8,7 @@
         public function muestraResumen(): void
         {
             parent::muestraResumen();
-            echo "<br>Duracion:" . $this->duracion ." minutos"; 
+            echo "<br>Cinta VHS <br>Duracion:" . $this->duracion ." minutos <br>"; 
         }
     }
   

@@ -10,7 +10,7 @@ class Dvd extends Soporte{
     {
         parent::muestraResumen();
         echo "<br>Idioma: " . $this->idioma ; 
-        echo "<br>Formato: " . $this->formatoPantalla ; 
+        echo "<br>Formato: " . $this->formatoPantalla ."<br>"; 
 
 
     }
