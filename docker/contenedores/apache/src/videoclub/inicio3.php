@@ -1,4 +1,8 @@
 <?php
+use Dwes\ProyectoVideoclub\Soporte;
+use Dwes\ProyectoVideoclub\CintaVideo;
+use Dwes\ProyectoVideoclub\Dvd;
+use Dwes\ProyectoVideoclub\Juego;
 include_once "Videoclub.php"; // No incluimos nada más
 
 $vc = new Videoclub("Severo 8A"); 

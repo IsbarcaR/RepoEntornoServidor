@@ -1,4 +1,5 @@
 <?php
+namespace Dwes\ProyectoVideoclub;
 include_once "Soporte.php";
 class Cliente
 {
@@ -48,20 +49,19 @@ class Cliente
         return false; 
     }
     
-    public function alquilar(Soporte $s){
-        if($this->tieneSoporte($s)){
-            echo ("El cliente ya tiene alquilado el soporte:". $s->titulo ."<br>");
-            return false;
-        }else if(count($this->soportesAlquilados)>= $this->maxAlquilerConcurrente){
-            echo("Este cliente ya tiene ".$this->maxAlquilerConcurrente ." elementos alquilados. No puede alquilar más en este videoclub hasta que no devuelva algo");
-            return false;
-        }else{
-            $this->soportesAlquilados[]=$s;
+    public function alquilar(Soporte $s)
+    {
+        if ($this->tieneSoporte($s)) {
+            echo "El cliente ya tiene alquilado el soporte: " . $s->titulo . "<br>";
+        } elseif (count($this->soportesAlquilados) >= $this->maxAlquilerConcurrente) {
+            echo "Este cliente ya tiene el máximo de alquileres. No puede alquilar más hasta devolver uno.<br>";
+        } else {
+            $this->soportesAlquilados[] = $s;
             $this->numSoportesAlquilados++;
             echo "Soporte alquilado exitosamente: " . $s->titulo . ".<br>";
             $s->muestraResumen();
-            return true;
-        }      
+        }
+        return $this;
     }
     public function devolver(int $numSoporte): bool {
         if ($numSoporte < 0 || $numSoporte >= count($this->soportesAlquilados)) {
