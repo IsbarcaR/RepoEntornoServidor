@@ -1,8 +1,8 @@
 <?php
 namespace Dwes\ProyectoVideoclub;
-include_once "Soporte.php";
+include_once "Soporte.php"; 
 class Cliente
-{
+{ 
     public array $soportesAlquilados = [];
     private int $numSoportesAlquilados = 0;
     private int $maxAlquilerConcurrente=3;

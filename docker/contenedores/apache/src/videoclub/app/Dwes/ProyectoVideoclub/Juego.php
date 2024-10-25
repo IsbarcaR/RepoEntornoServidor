@@ -10,7 +10,7 @@ class Juego extends Soporte
         private int $minNumJugadores,
         private int $maxNumJugadores
         
-    ) {
+    ) { 
         parent::__construct($titulo, $numero, $precio);
     }
     public function muestraJugadoresPosibles(): void

@@ -10,7 +10,7 @@ include_once "Resumible.php";
     }
     public function getPrecioConIva():float {
         return $this->precio * self::IVA;
-    }
+    } 
     public function getNumero():int{
         return $this->numero;
     }

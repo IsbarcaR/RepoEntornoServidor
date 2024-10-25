@@ -8,11 +8,9 @@ include_once "Cliente.php";
 class Videoclub {
     private array $productos = []; // Array de Soporte
     private array $socios = []; // Array de Cliente
-    private string $direccion;
+    
 
-    public function __construct(string $direccion) {
-        $this->direccion = $direccion;
-    }
+    
 
     // Método privado para incluir un producto
     private function incluirProducto(Soporte $soporte): void {

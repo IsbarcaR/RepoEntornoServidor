@@ -5,7 +5,7 @@ use Dwes\ProyectoVideoclub\Soporte;
 use Dwes\ProyectoVideoclub\CintaVideo;
 use Dwes\ProyectoVideoclub\Dvd;
 use Dwes\ProyectoVideoclub\Juego;
-
+ 
 
 $soporte1 = new Soporte("Tenet", 22, 3); 
 echo "<strong>" . $soporte1->titulo . "</strong>"; 
