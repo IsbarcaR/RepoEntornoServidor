@@ -1,5 +1,4 @@
 <?php
-use Dwes\ProyectoVideoclub\Videoclub;
 use Dwes\ProyectoVideoclub\Cliente;
 use Dwes\ProyectoVideoclub\Juego;
 use Dwes\ProyectoVideoclub\Dvd;
