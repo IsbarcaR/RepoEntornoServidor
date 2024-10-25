@@ -1,12 +1,10 @@
 <?php
+include "../autoload.php";
+
 use Dwes\ProyectoVideoclub\Soporte;
 use Dwes\ProyectoVideoclub\CintaVideo;
 use Dwes\ProyectoVideoclub\Dvd;
 use Dwes\ProyectoVideoclub\Juego;
-include "Soporte.php";
-include "Cintavideo.php";
-include "Dvd.php";
-include "Juego.php";
 
 
 $soporte1 = new Soporte("Tenet", 22, 3); 

@@ -1,10 +1,7 @@
 <?php
-use Dwes\ProyectoVideoclub\Soporte;
-use Dwes\ProyectoVideoclub\CintaVideo;
-use Dwes\ProyectoVideoclub\Dvd;
-use Dwes\ProyectoVideoclub\Juego;
-include_once "Videoclub.php"; // No incluimos nada más
+include "../autoload.php";
 
+use Dwes\ProyectoVideoclub\Videoclub;
 $vc = new Videoclub("Severo 8A"); 
 
 //voy a incluir unos cuantos soportes de prueba 
