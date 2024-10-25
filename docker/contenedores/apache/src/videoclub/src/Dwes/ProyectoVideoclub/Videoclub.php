@@ -1,4 +1,5 @@
 <?php
+namespace Dwes\ProyectoVideoclub;
 include_once "Soporte.php"; // Asegúrate de que este archivo existe
 include_once "Juego.php"; // Asegúrate de que este archivo existe
 include_once "Dvd.php"; // Asegúrate de que este archivo existe
@@ -49,16 +50,18 @@ class Videoclub {
         $this->incluirCliente($socio);
     }
 
-    // Método para alquilar un producto a un socio
-    public function alquilarSocioProducto(int $socioIndex, int $productoIndex): bool {
-        if (isset($this->socios[$socioIndex]) && isset($this->productos[$productoIndex])) {
-            $socio = $this->socios[$socioIndex];
-            $soporte = $this->productos[$productoIndex];
+    public function alquilarSocioProducto(int $numSocio, int $numProducto): self {
+        $socio = $this->socios[$numSocio - 1] ?? null;
+        $producto = $this->productos[$numProducto - 1] ?? null;
 
-            return $socio->alquilar($soporte); // Llama al método de alquiler del socio
+        if ($socio && $producto) {
+            $socio->alquilar($producto);
+        } else {
+            echo "Socio o producto no encontrado.\n";
         }
-        return false; // Producto o socio no encontrado
+        return $this; // Permite el encadenamiento
     }
+
 
     // Método para listar productos
     public function listarProductos(): void {

@@ -1,5 +1,5 @@
 <?php
-
+namespace Dwes\ProyectoVideoclub;
 class Dvd extends Soporte{
         
     function __construct(public string $titulo, protected string $numero, private float $precio,private string $idioma, private string $formatoPantalla){

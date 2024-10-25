@@ -1,4 +1,9 @@
 <?php
+use Dwes\ProyectoVideoclub\Videoclub;
+use Dwes\ProyectoVideoclub\Cliente;
+use Dwes\ProyectoVideoclub\Juego;
+use Dwes\ProyectoVideoclub\Dvd;
+use Dwes\ProyectoVideoclub\CintaVideo;
 include_once "Soporte.php";
 include_once "CintaVideo.php";
 include_once "Dvd.php";

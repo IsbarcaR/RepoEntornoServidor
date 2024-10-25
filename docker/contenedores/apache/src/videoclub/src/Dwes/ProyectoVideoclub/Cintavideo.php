@@ -1,4 +1,5 @@
 <?php
+namespace Dwes\ProyectoVideoclub;
     class CintaVideo extends Soporte{
         
         function __construct(public string $titulo, protected string $numero, private float $precio,private int $duracion){
